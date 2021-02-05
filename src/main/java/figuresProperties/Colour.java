@@ -1,4 +1,4 @@
-package FiguresProperties;
+package figuresProperties;
 
 public class Colour {
     private String colour;
