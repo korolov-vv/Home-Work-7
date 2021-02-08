@@ -1,6 +1,6 @@
 import figures.Circle;
-import figuresProperties.Colour;
-import utills.ShapePrinter;
+import figures.characteristics.Colour;
+import utils.ShapePrinter;
 
 public class Test {
     public static void main(String[] args) {
@@ -9,5 +9,6 @@ public class Test {
         circle.setColour(new Colour("Black"));
 
         new ShapePrinter().shapePrint(circle);
+        System.out.println(circle.getColour());
     }
 }

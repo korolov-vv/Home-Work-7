@@ -1,10 +1,10 @@
 package figures;
 
-import figuresProperties.Colour;
+import figures.characteristics.Colour;
 
 public class Shape {
-    String name;
-    Colour colour;
+    private String name;
+    private Colour colour;
 
     public String getName() {
         return name;
@@ -14,8 +14,8 @@ public class Shape {
         this.name = name;
     }
 
-    public Colour getColour() {
-        return colour;
+    public String getColour() {
+        return colour.getColour();
     }
 
     public void setColour(Colour colour) {
